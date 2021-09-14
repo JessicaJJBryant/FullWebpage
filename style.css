@@ -92,3 +92,45 @@ header a:hover {
 #showcase p {
     font-size: 20px;
 }
+/* Newsletter */
+#newsletter {
+    padding: 15px;
+    background-color: #2d2b3e;
+    color: #fff;
+}
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+#boxes .container .box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+#boxes .container .box i {
+    font-size: 225px;
+    margin: auto;
+}
+.fa-html5 {
+    color: #d45632;
+}
+.fa-css3-alt {
+    color: #2d50dc;
+}
+.fa-js {
+    color: #f3df50;
+}
